@@ -28,7 +28,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        # if: ${{ github.ref == 'refs/heads/master' }}
         with:
-          deploy_key: ${{ secrets.PRIVATE_KEY }}
-          external_repository: <aicryptogroup/aicryptogroup.github.io>
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
