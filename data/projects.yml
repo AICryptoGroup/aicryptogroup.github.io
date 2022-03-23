@@ -1,0 +1,13 @@
+--- 
+projects: 
+  - 
+    project:
+      - 
+        image: "https://raw.githubusercontent.com/AICryptoGroup/TorchSlim/master/imgs/flow_optimization_toolkit.jpg"
+        link: "https://github.com/AICryptoGroup/TorchSlim"
+        name: "TorchSlim - A Pytorch Optimization library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization."
+      - 
+        image: "/images/projects/kd.png"
+        link: "https://github.com/AICryptoGroup/distill-xlm-mrc"
+        name: "Distill MRC Model - A distill model for machine reading comprehension"
+    title: "Open source"
